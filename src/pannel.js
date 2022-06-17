@@ -28,7 +28,7 @@ function Pannel({ Add_task, Swich_task_type }){
 
 	return (
 		<div id="pannel">
-    	<input id="textRessiver" type="text"
+    	<input id="textRessiver" type="text" placeholder="Введите задачу..."
 				onKeyDown={Handle_key_press} />
 			<button onClick={Give_new_task}>Сохранить</button>
 			<select onChange={Give_task_type}>
